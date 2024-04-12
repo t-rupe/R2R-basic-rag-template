@@ -1,12 +1,12 @@
 {
   "embedding": {
     "provider": "openai",
-    "model": "text-embedding-3-small",
-    "dimension": 1536,
-    "batch_size": 32
+    "model": "text-embedding-3-large",
+    "dimension": 4096,
+    "batch_size": 16
   },
   "evals": {
-    "provider": "parea",
+    "provider": "deepeval",
     "frequency": 1.0
   },
   "ingestion":{
